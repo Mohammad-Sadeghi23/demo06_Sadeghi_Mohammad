@@ -1,1 +1,43 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/* New Color Palette:
+* Lightest (Text):         #EFECCA      (text, contrast with dark)
+* Peach (Primary):    #FF934F      
+* Light Blue (Secondary): #A9CBB7      (canvas background)
+* Bright Yellow (Accent):  #F7FF58
+*/
+
+.bg-info {
+    background-color: #A9CBB7 !important; /* Light blue for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #FF934F;            /* Peach for brand name & nav links for visibility */
+}
+
+.btn-info {
+    color: #EFECCA;            /* Lightest shade for text on info button for contrast */
+    background-color: #A9CBB7; /* Light blue for button background */
+    border-color: #FF934F;     /* Peach for button border */
+}
+
+.btn-primary {
+    color: #EFECCA;            /* Lightest shade for text */
+    font-size: 150%;
+    background-color: #FF934F; /* Peach for primary button background */
+    border-color: #F7FF58;     /* Reddish-brown for border to use as accent */
+    border-width: thick;
+}
+
+body {
+    background-color: #EFECCA; /* Lightest shade for body background to follow the 60% rule */
+}
+
+.navbar-brand{
+    font-family: 'Caveat', cursive; /*change the font name for what you have*/
+    font-size: 2.25rem;
+}
